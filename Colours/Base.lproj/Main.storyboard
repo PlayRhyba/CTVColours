@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QUu-Wc-oVW">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CTVMainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rEu-Ly-XQd">
+                                <rect key="frame" x="20" y="265" width="560" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="qvS-1r-DVg"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="819-Uz-l0e">
+                                <rect key="frame" x="20" y="353" width="560" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="GNx-Ln-qi5"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3L9-IG-hFM">
+                                <rect key="frame" x="20" y="177" width="560" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="P1S-uE-EpR"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="819-Uz-l0e" firstAttribute="top" secondItem="rEu-Ly-XQd" secondAttribute="bottom" constant="18" id="CUc-06-6W6"/>
+                            <constraint firstItem="rEu-Ly-XQd" firstAttribute="top" secondItem="3L9-IG-hFM" secondAttribute="bottom" constant="18" id="DG8-E4-9CA"/>
+                            <constraint firstItem="819-Uz-l0e" firstAttribute="height" secondItem="3L9-IG-hFM" secondAttribute="height" id="F4M-Ue-Gd3"/>
+                            <constraint firstItem="rEu-Ly-XQd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="HER-Mc-x2r"/>
+                            <constraint firstItem="3L9-IG-hFM" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="jNf-jz-w2f"/>
+                            <constraint firstItem="819-Uz-l0e" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="jxi-Sm-LaV"/>
+                            <constraint firstItem="rEu-Ly-XQd" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="l2W-xT-hQM"/>
+                            <constraint firstItem="rEu-Ly-XQd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="od1-XP-deJ"/>
+                            <constraint firstItem="819-Uz-l0e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pKh-fj-Pwd"/>
+                            <constraint firstItem="3L9-IG-hFM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qx9-45-ugT"/>
+                            <constraint firstItem="rEu-Ly-XQd" firstAttribute="height" secondItem="3L9-IG-hFM" secondAttribute="height" id="zhr-wU-vq0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="MKm-Q3-Q98"/>
+                    <connections>
+                        <outletCollection property="buttons" destination="3L9-IG-hFM" id="Ecw-75-LgI"/>
+                        <outletCollection property="buttons" destination="rEu-Ly-XQd" id="4J4-Uv-fBx"/>
+                        <outletCollection property="buttons" destination="819-Uz-l0e" id="poG-9A-nMr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="760" y="186"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bt0-GT-oKW">
+            <objects>
+                <navigationController id="QUu-Wc-oVW" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4qU-Wn-rHH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="d53-9X-UyF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="26M-4a-a1R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="40" y="192"/>
+        </scene>
+    </scenes>
+</document>

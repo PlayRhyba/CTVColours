@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D634A04F1BE0CA4A004508A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D634A04E1BE0CA4A004508A0 /* main.m */; };
+		D634A0521BE0CA4A004508A0 /* CTVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D634A0511BE0CA4A004508A0 /* CTVAppDelegate.m */; };
+		D634A0581BE0CA4A004508A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D634A0561BE0CA4A004508A0 /* Main.storyboard */; };
+		D634A05A1BE0CA4A004508A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D634A0591BE0CA4A004508A0 /* Assets.xcassets */; };
+		D634A05D1BE0CA4A004508A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D634A05B1BE0CA4A004508A0 /* LaunchScreen.storyboard */; };
+		D634A0701BE0DC66004508A0 /* ScreenSharingSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D634A06F1BE0DC66004508A0 /* ScreenSharingSDK.framework */; };
+		D634A0721BE0DC8E004508A0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D634A0711BE0DC8E004508A0 /* AudioToolbox.framework */; };
+		D634A0741BE0DC9A004508A0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D634A0731BE0DC9A004508A0 /* SystemConfiguration.framework */; };
+		D634A0761BE0DCAA004508A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D634A0751BE0DCAA004508A0 /* UIKit.framework */; };
+		D634A0781BE0DCD5004508A0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D634A0771BE0DCD5004508A0 /* libz.tbd */; };
+		D634A07A1BE0DEE4004508A0 /* ScreenSharingSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D634A0791BE0DEE4004508A0 /* ScreenSharingSDKResources.bundle */; };
+		D634A0851BE10E3C004508A0 /* UIAlertController+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = D634A0821BE10E3C004508A0 /* UIAlertController+Extended.m */; };
+		D634A0861BE10E3C004508A0 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = D634A0841BE10E3C004508A0 /* UIColor+Random.m */; };
+		D634A08C1BE10E5A004508A0 /* CTVColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D634A0891BE10E5A004508A0 /* CTVColorViewController.m */; };
+		D634A08D1BE10E5A004508A0 /* CTVMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D634A08B1BE10E5A004508A0 /* CTVMainViewController.m */; };
+		D634A0911BE10E75004508A0 /* CTVTeamViewerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D634A0901BE10E75004508A0 /* CTVTeamViewerManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D634A04A1BE0CA4A004508A0 /* Colours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colours.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D634A04E1BE0CA4A004508A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D634A0501BE0CA4A004508A0 /* CTVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTVAppDelegate.h; sourceTree = "<group>"; };
+		D634A0511BE0CA4A004508A0 /* CTVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTVAppDelegate.m; sourceTree = "<group>"; };
+		D634A0571BE0CA4A004508A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D634A0591BE0CA4A004508A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D634A05C1BE0CA4A004508A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D634A05E1BE0CA4A004508A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D634A06F1BE0DC66004508A0 /* ScreenSharingSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScreenSharingSDK.framework; sourceTree = "<group>"; };
+		D634A0711BE0DC8E004508A0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D634A0731BE0DC9A004508A0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D634A0751BE0DCAA004508A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D634A0771BE0DCD5004508A0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D634A0791BE0DEE4004508A0 /* ScreenSharingSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ScreenSharingSDKResources.bundle; path = Colours/ScreenSharingSDKResources.bundle; sourceTree = "<group>"; };
+		D634A0811BE10E3C004508A0 /* UIAlertController+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Extended.h"; sourceTree = "<group>"; };
+		D634A0821BE10E3C004508A0 /* UIAlertController+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Extended.m"; sourceTree = "<group>"; };
+		D634A0831BE10E3C004508A0 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		D634A0841BE10E3C004508A0 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		D634A0881BE10E5A004508A0 /* CTVColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTVColorViewController.h; sourceTree = "<group>"; };
+		D634A0891BE10E5A004508A0 /* CTVColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTVColorViewController.m; sourceTree = "<group>"; };
+		D634A08A1BE10E5A004508A0 /* CTVMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTVMainViewController.h; sourceTree = "<group>"; };
+		D634A08B1BE10E5A004508A0 /* CTVMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTVMainViewController.m; sourceTree = "<group>"; };
+		D634A08F1BE10E75004508A0 /* CTVTeamViewerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTVTeamViewerManager.h; sourceTree = "<group>"; };
+		D634A0901BE10E75004508A0 /* CTVTeamViewerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTVTeamViewerManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D634A0471BE0CA4A004508A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D634A0781BE0DCD5004508A0 /* libz.tbd in Frameworks */,
+				D634A0761BE0DCAA004508A0 /* UIKit.framework in Frameworks */,
+				D634A0741BE0DC9A004508A0 /* SystemConfiguration.framework in Frameworks */,
+				D634A0721BE0DC8E004508A0 /* AudioToolbox.framework in Frameworks */,
+				D634A0701BE0DC66004508A0 /* ScreenSharingSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D634A0411BE0CA4A004508A0 = {
+			isa = PBXGroup;
+			children = (
+				D634A0791BE0DEE4004508A0 /* ScreenSharingSDKResources.bundle */,
+				D634A04C1BE0CA4A004508A0 /* Colours */,
+				D634A04B1BE0CA4A004508A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D634A04B1BE0CA4A004508A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D634A04A1BE0CA4A004508A0 /* Colours.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D634A04C1BE0CA4A004508A0 /* Colours */ = {
+			isa = PBXGroup;
+			children = (
+				D634A08E1BE10E75004508A0 /* Managers */,
+				D634A0801BE10E3C004508A0 /* Categories */,
+				D634A07C1BE0DF60004508A0 /* Frameworks */,
+				D634A0871BE10E5A004508A0 /* ViewControllers */,
+				D634A0501BE0CA4A004508A0 /* CTVAppDelegate.h */,
+				D634A0511BE0CA4A004508A0 /* CTVAppDelegate.m */,
+				D634A0561BE0CA4A004508A0 /* Main.storyboard */,
+				D634A0591BE0CA4A004508A0 /* Assets.xcassets */,
+				D634A05B1BE0CA4A004508A0 /* LaunchScreen.storyboard */,
+				D634A05E1BE0CA4A004508A0 /* Info.plist */,
+				D634A04D1BE0CA4A004508A0 /* Supporting Files */,
+			);
+			path = Colours;
+			sourceTree = "<group>";
+		};
+		D634A04D1BE0CA4A004508A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D634A04E1BE0CA4A004508A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D634A07C1BE0DF60004508A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D634A06F1BE0DC66004508A0 /* ScreenSharingSDK.framework */,
+				D634A0771BE0DCD5004508A0 /* libz.tbd */,
+				D634A0751BE0DCAA004508A0 /* UIKit.framework */,
+				D634A0731BE0DC9A004508A0 /* SystemConfiguration.framework */,
+				D634A0711BE0DC8E004508A0 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D634A0801BE10E3C004508A0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D634A0811BE10E3C004508A0 /* UIAlertController+Extended.h */,
+				D634A0821BE10E3C004508A0 /* UIAlertController+Extended.m */,
+				D634A0831BE10E3C004508A0 /* UIColor+Random.h */,
+				D634A0841BE10E3C004508A0 /* UIColor+Random.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D634A0871BE10E5A004508A0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D634A0881BE10E5A004508A0 /* CTVColorViewController.h */,
+				D634A0891BE10E5A004508A0 /* CTVColorViewController.m */,
+				D634A08A1BE10E5A004508A0 /* CTVMainViewController.h */,
+				D634A08B1BE10E5A004508A0 /* CTVMainViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D634A08E1BE10E75004508A0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D634A08F1BE10E75004508A0 /* CTVTeamViewerManager.h */,
+				D634A0901BE10E75004508A0 /* CTVTeamViewerManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D634A0491BE0CA4A004508A0 /* Colours */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D634A0611BE0CA4A004508A0 /* Build configuration list for PBXNativeTarget "Colours" */;
+			buildPhases = (
+				D634A0461BE0CA4A004508A0 /* Sources */,
+				D634A0471BE0CA4A004508A0 /* Frameworks */,
+				D634A0481BE0CA4A004508A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Colours;
+			productName = Colours;
+			productReference = D634A04A1BE0CA4A004508A0 /* Colours.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D634A0421BE0CA4A004508A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CTV;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Alexander Snigurskyi";
+				TargetAttributes = {
+					D634A0491BE0CA4A004508A0 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3636WYMG27;
+					};
+				};
+			};
+			buildConfigurationList = D634A0451BE0CA4A004508A0 /* Build configuration list for PBXProject "Colours" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D634A0411BE0CA4A004508A0;
+			productRefGroup = D634A04B1BE0CA4A004508A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D634A0491BE0CA4A004508A0 /* Colours */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D634A0481BE0CA4A004508A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D634A05D1BE0CA4A004508A0 /* LaunchScreen.storyboard in Resources */,
+				D634A05A1BE0CA4A004508A0 /* Assets.xcassets in Resources */,
+				D634A07A1BE0DEE4004508A0 /* ScreenSharingSDKResources.bundle in Resources */,
+				D634A0581BE0CA4A004508A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D634A0461BE0CA4A004508A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D634A0861BE10E3C004508A0 /* UIColor+Random.m in Sources */,
+				D634A0911BE10E75004508A0 /* CTVTeamViewerManager.m in Sources */,
+				D634A0521BE0CA4A004508A0 /* CTVAppDelegate.m in Sources */,
+				D634A08D1BE10E5A004508A0 /* CTVMainViewController.m in Sources */,
+				D634A0851BE10E3C004508A0 /* UIAlertController+Extended.m in Sources */,
+				D634A08C1BE10E5A004508A0 /* CTVColorViewController.m in Sources */,
+				D634A04F1BE0CA4A004508A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D634A0561BE0CA4A004508A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D634A0571BE0CA4A004508A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D634A05B1BE0CA4A004508A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D634A05C1BE0CA4A004508A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D634A05F1BE0CA4A004508A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D634A0601BE0CA4A004508A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D634A0621BE0CA4A004508A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Colours",
+				);
+				INFOPLIST_FILE = Colours/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.metegrity.Colours;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D634A0631BE0CA4A004508A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Colours",
+				);
+				INFOPLIST_FILE = Colours/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.metegrity.Colours;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D634A0451BE0CA4A004508A0 /* Build configuration list for PBXProject "Colours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D634A05F1BE0CA4A004508A0 /* Debug */,
+				D634A0601BE0CA4A004508A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D634A0611BE0CA4A004508A0 /* Build configuration list for PBXNativeTarget "Colours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D634A0621BE0CA4A004508A0 /* Debug */,
+				D634A0631BE0CA4A004508A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D634A0421BE0CA4A004508A0 /* Project object */;
+}
